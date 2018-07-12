@@ -1,5 +1,6 @@
-# lemp-php7-hazm-full
+# lemp-php7-hazm-full:ffmpeg
 docker file for image to use hazm persian language processor  in a php project
+and in this version it contain ffmpeg if you need to use it for video related projects.
 
 It's base on [php7 with ffmpeg image](https://github.com/Mehrdad-Dadkhah/lemp-php7-full)
 
@@ -26,4 +27,4 @@ and in ffmpeg tag image contain latest version of FFmpeg.
 ----------
 # usage
 
-    docker pull mehrdadkhah/lemp-php7-hazm-full
+    docker pull mehrdadkhah/lemp-php7-hazm-full:ffmpeg
